@@ -1,0 +1,134 @@
+.progress {
+	background-color: lightgray;
+}
+.progress-inside {
+	color: white;
+	text-align: center;
+	background-color: red;
+}
+
+.button {
+	color: white;
+	border: solid;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 20px;
+	border: none;
+	background-color: black;
+	outline: none;
+	padding: 3px;
+}
+.bottom {
+	position: fixed;
+	width: 500px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.grid {
+	display: grid;
+	grid-gap: 1px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+div > div {
+	padding: 10px;
+}
+.login {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	justify-content: center;
+}
+.push-right {
+	margin-left: auto; /*used to push items to the right*/
+}
+.push-down {
+	margin-bottom: auto; /*used to push items to the bottom*/
+}
+.navbar {
+	display: flex; /*makes a flex box*/
+	/*margin: 0 -10px; needed to make .push-right work correctly*/
+	border: solid; /*adds an outline to the outer box*/
+	/*border-radius: 10px; determines the radius of the border*/
+	padding: 5px /*top padding*/ 30px /*right padding*/ 5px
+		/*bottom padding*/ 30px /*left padding*/;
+	border-radius: 25px; /*rounded corners*/
+	margin: auto; /*centres the navigation bar*/
+	align-items: center; /*aligns the items on the center*/
+	flex-wrap: wrap; /*makes the elements wrap on smaller size screens instead of clipping through*/
+	justify-content: center; /*makes the content centered*/
+	/*flex box responsiveness tweaks*/
+	/*cause weird wrapping but still responsive*/
+	min-width: 100px; /*sets minimum width, this is for very narrow screens to prevent each icon taking the whole screen*/
+}
+.navbutton {
+	/*buttons in the navigation bar*/
+	border: none; /*remove border*/
+	background: none; /*remove background*/
+	margin: 0 10px; /*adds margin to the right of the navigation button, might also be needed for push right to work*/
+}
+
+.main {
+	/*flex box*/
+	display: flex; /*adds flex box functionality*/
+	flex-direction: row; /*makes the direction horizontal*/
+	/*align-items: center; makes the items centered*/
+	justify-content: center; /*makes the content centered*/
+	/*flex box responsiveness tweaks*/
+	/*cause weird wrapping but still responsive*/
+	/*stretch to page size*/
+	height: 95vh; /*increases the size of the flex box to fill the page*/
+	align-items: stretch; /*needed to make the flex box stretch*/
+	flex-wrap: wrap; /*makes the line of the sidebar expand correctly*/
+}
+.sidebar {
+	display: flex; /*makes a flex box*/
+	flex-direction: column; /*makes the items go in column order instead of row*/
+	margin: 0 0 -10px; /*needed to make .push-down work correctly*/
+	border-right: solid; /*left border to separate content*/
+	flex-grow: 1; /*add size to the flex box so it can be controlled*/
+	text-align: center; /*aligns the text and icons to the center*/
+	padding: 30px /*top padding*/ 0 /*right padding*/ 30px
+		/*bottom padding*/ 0 /*left padding*/;
+}
+.sidebutton {
+	/*buttons in the navigation bar*/
+	border: none; /*remove border*/
+	background: none; /*remove background*/
+	margin: 0 0 10px
+		/*adds margin below of the navigation button, might also be needed for push down to work*/;
+}
+.container {
+}
+
+.item {
+	flex: 0 32%;
+	height: 100px;
+	margin-bottom: 2%; /* (100-32*3)/2 */
+}
+
+.content-box {
+	flex-grow: 50; /*makes the flex box bigger*/
+	width: 0; /*fixes sidebar taking the entire screen on smaller sizes*/
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.texticon {
+	/*for icons that are characters, characters are used as opposed to an image to reduce file size*/
+	font-size: 50px; /*sets the font size to make the text button as big as other icons*/
+	color: black; /*sets the colour of the text as black as by default it is black-grayish*/
+}
+@media screen and (max-width: 1000px) {
+	/*media query to do actions once the screen is thinner than 1000 pixels*/
+	.navbar {
+		padding: 0 /*top padding*/ 0 /*right padding*/ 0
+			/*bottom padding*/ 0 /*left padding*/;
+	}
+	.push-right {
+		margin-left: 0; /*removes spacing making the icons go together*/
+	}
+	.push-down {
+		margin-bottom: 0; /*removes spacing making the icons go together*/
+	}
+}
