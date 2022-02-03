@@ -1,1 +1,7 @@
 # barclaycard2022
+## GitHub Check (check the tick box to make sure GitHub is working for you)
+- [x] Mark
+- [ ] Danielle
+- [ ] Louise
+- [ ] Petar
+- [ ] Rudo
