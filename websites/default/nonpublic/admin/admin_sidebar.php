@@ -87,10 +87,17 @@
     </a>
     <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">UK:</h6>
-            <a class="collapse-item" href="">Northampton</a>
-            <a class="collapse-item" href="">Coventry</a>
-            <a class="collapse-item" href="">Corby</a>
+            <h6 class="collapse-header">Northampton:</h6>
+            <a class="collapse-item" href="">Northampton Stock</a>
+            <a class="collapse-item" href="">Northampton Staff</a>
+
+            <h6 class="collapse-header">Coventry:</h6>
+            <a class="collapse-item" href="">Coventry Stock</a>
+            <a class="collapse-item" href="">Coventry Staff</a>
+
+            <h6 class="collapse-header">Corby:</h6>
+            <a class="collapse-item" href="">Corby Stock</a>
+            <a class="collapse-item" href="">Corby Staff</a>
         </div>
     </div>
 </li>
