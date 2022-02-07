@@ -1,7 +1,7 @@
 <?php
 session_start(); //used to start the session - has to be on the first line
 
-//connecting to database
+//connecting to database 
 require '../database.php';
 
 if (isset($_SESSION["loggedin"])) { //checks that the user is logged in
