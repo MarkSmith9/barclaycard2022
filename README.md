@@ -47,3 +47,15 @@
 - The client is not looking for a too corporate presentation, instead he wants us to build trust and be memorable
 	- This is done by standing out and letting our personalities come through
 - The client mentioned tokenisation, not sure what it is we should probably look into it
+
+## Payment gateway details
+### Link to the back-end site:
+[back-end site](https://barclaycard.ubctest.cybersource.com/ebc2/)
+### login details for the back end site:
+Organisation ID: uon2021grp3\
+Username: grp3\
+Password: UniTest1234
+
+### What I did when modifying the gateway files:
+- added appropriate keys where needed
+- commented out line 14 on PHPAuth2.php as it was causing issues. Commenting it out seemed to have no effect on functionality.
