@@ -11,6 +11,6 @@
 - Theming
 	- Logo
 	- pci compliance
-- How loyalty scheme works
+- How loyalty scheme works -Louise
 - Guest login
 - reconciliation of transactions - Brandon
