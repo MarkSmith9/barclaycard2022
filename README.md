@@ -13,4 +13,4 @@
 	- pci compliance
 - How loyalty scheme works
 - Guest login
-- reconciliation of transactions
+- reconciliation of transactions - Brandon
