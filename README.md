@@ -5,6 +5,7 @@
 - [ ] Louise
 - [ ] Petar
 - [x] Rudo
+- [x] Cosmin
 
 ## questions
 - Theming
