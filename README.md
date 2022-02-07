@@ -8,9 +8,9 @@
 - [x] Cosmin
 
 ## questions
-- Theming
-	- Logo
-	- pci compliance
+- Theming 
+	- Logo + colours - Rudo
+	- pci compliance 
 - How loyalty scheme works -Louise
 - Guest login
 - reconciliation of transactions - Brandon
