@@ -72,7 +72,7 @@ Username: grp3\
 Password: UniTest1234
 
 ### Test Credit cards that can be used
-[card table](cards.md)
+[card table](test-credit-cards-table.md)
 
 
 
