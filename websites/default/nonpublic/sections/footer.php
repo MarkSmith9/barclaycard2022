@@ -21,8 +21,8 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Phillip's Cheese</h3>
             <p>
-              A111 Northampton Street <br>
-              Nothampton, NN1 1NN<br>
+              Phillip’s Cheese  <br>
+              Nothampton, NN1 2HG<br>
               United Kingdom <br><br>
               <strong>Phone:</strong> +44 07388 123 456<br>
               <strong>Email:</strong> phillip@email.com<br>
@@ -34,26 +34,26 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Products</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Our Products</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">something</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">something</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">something</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Sellings</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">something</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cheddar</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Gouda</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Blue Cheese</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Mozzarella</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <p>Follow us on our social media platforms
+            </p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>

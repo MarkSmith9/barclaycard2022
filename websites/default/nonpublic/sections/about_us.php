@@ -8,20 +8,20 @@
         <div class="row content">
           <div class="col-lg-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            Phillip’s Cheeses has been an established business in Northampton for over 12 years. Providing top quality cheese to our customers
+            living up to our expectations.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> Government Approved</li>
+              <li><i class="ri-check-double-line"></i> Legal guidlines on animal cruelty followed</li>
+              <li><i class="ri-check-double-line"></i> Regulatory Approved</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              For 12 years we have always been known locally to be the best cheese providers, and we strive to continue on this path
+              not only locally but being able to be recognised nationally as well as internationally in the near future, as one of the 
+              top cheese providers from the UK.
             </p>
             <a href="#" class="btn-learn-more">Learn More</a>
           </div>
