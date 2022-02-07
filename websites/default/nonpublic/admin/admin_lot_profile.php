@@ -35,7 +35,7 @@ $lot = $stmt->fetch();
 ?>
 
 <!-- Page Heading -->
-<h1 class="h3 mb-2 text-gray-800">Item - Lot number: <?=sprintf("%08d", $lot['id'])?></h1>
+<h1 class="h3 mb-2 text-gray-800">Product: <?=sprintf("%08d", $lot['id'])?></h1>
   <div class="d-flex justify-content-between">
     <h5 class="m-0 font-weight-bold text-primary"><?=$lot['name']?></h5>
     <?php if($isarchived==1) echo '<button class="btn btn-lg btn-primary" type="button" onclick="parent.location=\'personal_page.php?page=archive\'">Back</button>';
@@ -67,12 +67,9 @@ $lot = $stmt->fetch();
             <p class="text-muted mb-1">Quantity: <?=$lot['stock']?></p>
             <p class="text-muted mb-4">Phillip's Cheese</p>
             <div class="d-flex justify-content-center mb-2">
-              <?php if($isarchived==1) echo '<button disabled type="button" data-toggle="modal" data-target="#assign_auction" class="btn btn-sm btn-outline-warning ms-1">ARCHIVED</button>';
-                  else {
-                    echo '<button type="button" data-toggle="modal" data-target="#assign_picture" class="btn btn-sm btn-outline-primary mr-1 ms-1">Add picture</button></form>';
-                    echo '<button type="button" data-toggle="modal" data-target="#assign_picture" class="btn btn-sm btn-outline-danger mr-1 ms-1">Split stock</button></form>';
-                  }
-              ?>
+              <button type="button" data-toggle="modal" data-target="#assign_picture" class="btn btn-sm btn-outline-primary mr-1 ms-1">Add picture</button></form>
+              <button type="button" data-toggle="modal" data-target="#assign_stock" class="btn btn-sm btn-outline-danger mr-1 ms-1">Distribute stock</button></form>
+
             </div>
           </div>
         </div>
@@ -123,7 +120,15 @@ $lot = $stmt->fetch();
             </div>
             <hr>
 
-            
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Available stock</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?=$lot['stock']?></p>
+              </div>
+            </div>
+            <hr>
 
 
             
@@ -230,6 +235,50 @@ $lot = $stmt->fetch();
 
 
 
+
+
+
+
+  <!--modal to stock-->
+  <div class="modal fade" id="assign_stock" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Distribute</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select store and quantity</div>
+
+                <div class="modal-body col-sm-6">
+
+
+                <form method="POST" action="personal_page.php?page=assign_stock&id=<?=$_GET['id']?>">
+                <select name="stock" id="stock">
+                        <?php
+                        $stmt2 = $pdo->prepare('SELECT * FROM sys.branches');
+                        $values = [];
+                        $stmt2 ->execute($values);
+                        
+                        foreach($stmt2 as $stock){
+						              echo '<option value="'.$stock['id'].'">'.$stock['name'].$stock['id'].'</option>';
+					                }
+				                ?>
+                </select>
+                <input type="text" class="form-control form-control-user" name="quantity" id="quantity" placeholder="quantity">
+                </div><!--modal body for pictures-->
+
+
+
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <input type="submit" class="btn btn-primary btn-user btn-block" name="submit" value="Transfer"></form>
+                </div>
+            </div>
+        </div>
+    </div>  <!--end modal to select picture-->
 
 
 

@@ -57,6 +57,9 @@ if(isset($_SESSION['access'])){
         elseif(isset($_GET['page']) && $_GET['page']=='add_lot_picture'){
             require '../nonpublic/admin/admin_add_lot_picture.php';
         }
+        elseif(isset($_GET['page']) && $_GET['page']=='assign_stock'){
+            require '../nonpublic/admin/admin_assign_stock.php';
+        }
 
         else {
         require '../nonpublic/sections/admin_dashboard.php';
