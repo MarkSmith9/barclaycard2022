@@ -14,3 +14,4 @@
 - How loyalty scheme works -Louise
 - Guest login
 - reconciliation of transactions - Brandon
+- storefronts - Cosmin
