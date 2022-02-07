@@ -48,6 +48,21 @@
 	- This is done by standing out and letting our personalities come through
 - The client mentioned tokenisation, not sure what it is we should probably look into it
 
+## Second meeting findings
+- Date needs to be changed to 2009
+- The third logo combined with the mouse for 4th logo is what the client wants
+	- Multiple designs would be beneficial in order to continue to give choice to the client
+- He wants the website to be open ended, not "framy" or blocky and wants the website to be scrollable
+- He wants social media to be on the website, in addition he wants us to talk and price the management of social media and talk about how much extra exposure it could give
+- He wants to have as few separate pages as possible and wants seamless transitions - redirects break the user experience
+	- This is especially important for the login - not a separate page but a drop down/pop up
+- He wants a user guide
+- He talked about how using tokens and feeding transactions will be hard
+- He talked how the gateway sends data and how our server should receive it and add it to the database
+	- He says that external host should be needed tho dummy data could be used if we cant get it to work
+	- If we can't do it we should explain the concept and how we would go about implementing it
+- He said he will be available tomorrow ~11:20
+
 ## Payment gateway details
 ### Link to the back-end site:
 [back-end site](https://barclaycard.ubctest.cybersource.com/ebc2/)
