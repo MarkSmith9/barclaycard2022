@@ -69,7 +69,9 @@ $lot = $stmt->fetch();
             <div class="d-flex justify-content-center mb-2">
               <?php if($isarchived==1) echo '<button disabled type="button" data-toggle="modal" data-target="#assign_auction" class="btn btn-sm btn-outline-warning ms-1">ARCHIVED</button>';
                   else {
-                    echo '<button type="button" data-toggle="modal" data-target="#assign_picture" class="btn btn-sm btn-outline-primary mr-1 ms-1">Add picture</button></form>';}
+                    echo '<button type="button" data-toggle="modal" data-target="#assign_picture" class="btn btn-sm btn-outline-primary mr-1 ms-1">Add picture</button></form>';
+                    echo '<button type="button" data-toggle="modal" data-target="#assign_picture" class="btn btn-sm btn-outline-danger mr-1 ms-1">Split stock</button></form>';
+                  }
               ?>
             </div>
           </div>
