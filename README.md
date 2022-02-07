@@ -32,7 +32,7 @@ Group name: Impact development
 - pci
 - gdpr
 - disability act
-- 
+
 ### Misc
 - The client is not looking for a too corporate presentation, instead he wants us to build trust and be memorable
 	- This is done by standing out and letting our personalities come through
