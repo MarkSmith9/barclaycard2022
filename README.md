@@ -10,7 +10,7 @@
 ## questions
 - Theming 
 	- Logo + colours - Rudo
-	- pci compliance 
+	- pci compliance - Rudo
 - How loyalty scheme works -Louise
 - Guest login
 - reconciliation of transactions - Brandon
