@@ -6,6 +6,7 @@
 - [ ] Petar
 - [x] Rudo
 - [x] Cosmin
+- [x] Brandon
 
 ## questions
 - Theming
