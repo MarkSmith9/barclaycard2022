@@ -1,7 +1,7 @@
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.php"><img class="mb-4" src="../assets/img/cheese.png" alt="Go to main page" ></a></h1>
+      <h1 class="logo me-auto"><a href="index.php"><img class="mb-4" src="../assets/img/PhillipsCheesesLogo.svg" alt="Go to main page" ></a></h1>
       <!-- <a href="index.php"><img class="mb-4" src="../assets/img/logo.jpg" alt="Go to main page" ></a> -->
 
       <!-- Uncomment below if you prefer to use an image logo -->
@@ -19,23 +19,23 @@
             ?> 
 
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#services">Products</a></li>
+          
           <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drawings</a></li>
-              <li class="dropdown"><a href="#"><span>Paintings</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#">Gouda</a></li>
+              <li class="dropdown"><a href="#"><span>Cheddar</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Paintings subcategory 1</a></li>
-                  <li><a href="#">Paintings subcategory 2</a></li>
-                  <li><a href="#">Paintings subcategory 3</a></li>
-                  <li><a href="#">Paintings subcategory 4</a></li>
-                  <li><a href="#">Paintings subcategory 5</a></li>
+                  <li><a href="#">New York Style</a></li>
+                  <li><a href="#">Mild </a></li>
+                  <li><a href="#">Medium</a></li>
+                  <li><a href="#">Sharp</a></li>
+                  <li><a href="#">Extra Sharp</a></li>
                 </ul>
               </li>
-              <li><a href="#">Photographic Images</a></li>
-              <li><a href="#">Sculptures</a></li>
-              <li><a href="box.php">Carvings</a></li>
+              <li><a href="#">Blue Cheese</a></li>
+              <li><a href="#">Mozzarella</a></li>
+              
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>

@@ -2,54 +2,52 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Product Pricing</h2>
+          <p>
+            Here at Philip's Cheese we pride ourselves in our pricing for our products as we thrive to be the best on the market in this area
+          </p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="box">
-              <h3>Cheese</h3>
-              <h4><sup>£</sup>0<span>a.......y</span></h4>
+              <h3>Cheddar</h3>
+              <h4><sup>£</sup>5<span>per/kg</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+                <li><i class="bx bx-check"></i> Matured locally</li>
+                <li><i class="bx bx-check"></i> Fermented in Northampton</li>
+                <li><i class="bx bx-check"></i> Aged to at least 6 months</li>
+                </ul>
+              <a href="#" class="buy-btn">Purchase</a>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box featured">
-              <h3>Wines</h3>
-              <h4><sup>£</sup>100<span>...</span></h4>
+              <h3>Gouda</h3>
+              <h4><sup>£</sup>15<span>per/kg</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bx bx-check"></i> Renowned by locals</li>
+                <li><i class="bx bx-check"></i> Great Taste</li>
+                <li><i class="bx bx-check"></i> Lasts longer</li>
+                <li><i class="bx bx-check"></i> Cheapest on the market</li>
+                <li><i class="bx bx-check"></i> Supports local farmers</li>
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="#" class="buy-btn">Purchase</a>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
-              <h3>Wines 2</h3>
-              <h4><sup>£</sup>150<span>p....m</span></h4>
+              <h3>Blue Cheese</h3>
+              <h4><sup>£</sup>25<span>per/kg</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bx bx-check"></i> Valued at the right price</li>
+                <li><i class="bx bx-check"></i> Aged to perfection</li>
+                <li><i class="bx bx-check"></i> Commonly exported to other European countries</li>
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="#" class="buy-btn">Purchase</a>
             </div>
           </div>
 
