@@ -1,5 +1,5 @@
 # barclaycard2022
-- Group name: Impact development
+Group name: Impact development
 ## GitHub Check (check the tick box to make sure GitHub is working for you)
 - [x] Mark
 - [x] Louise
@@ -72,10 +72,13 @@ Username: grp3\
 Password: UniTest1234
 
 ### Test Credit cards that can be used
-[document](cards.md)
+[card table](cards.md)
 
 
 
 ### What I did when modifying the gateway files:
 - added appropriate keys where needed
 - commented out line 14 on PHPAuth2.php as it was causing issues. Commenting it out seemed to have no effect on functionality.
+
+## Cheese puns
+[auto-generated cheese puns](https://pungenerator.org/puns?utf8=%E2%9C%93&q=cheese&commit=Generate+Puns%21)
