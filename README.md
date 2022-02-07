@@ -15,7 +15,7 @@ Group name: Impact development
 	- The client also wants to know what the running costs are
 - The client can look through mock-ups today (at 3-4ish probably 4) and tomorrow in order to give feedback (15 mins)
 
-### Website
+### Website requirements
 #### Theming
 - The website should not be brightly coloured and shouldn't be too attention grabby and should be subtle instead
 - A large portion of the market is elderly
@@ -82,3 +82,8 @@ Password: UniTest1234
 
 ## Cheese puns
 [auto-generated cheese puns](https://pungenerator.org/puns?utf8=%E2%9C%93&q=cheese&commit=Generate+Puns%21)
+
+## Website information
+super admin login:\
+Username: admin@admin.com\
+Password: 123
