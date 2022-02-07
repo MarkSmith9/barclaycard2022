@@ -8,15 +8,6 @@
 - [x] Cosmin
 - [x] Brandon
 
-## questions
-- Theming
-	- Logo + colours - Rudo
-	- pci compliance - Rudo
-- How loyalty scheme works -Louise
-- Guest login - Mark
-- reconciliation of transactions - Brandon
-- storefronts - Cosmin
-
 ## Meeting findings
 ### Client
 - The client runs a cheese shop and is looking to digitise it
