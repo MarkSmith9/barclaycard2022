@@ -7,7 +7,7 @@
           <h2>We are team of professionals to help you win your dream art work</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="docs/new_catalogue.pdf" target="_blank" class="btn-get-started scrollto">Our Latest products</a>
-            <a href="https://www.youtube.com/watch?v=3orkmMlSpmI&ab_channel=Christie%27s" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Presentation video</span></a>
+            <a href="https://www.youtube.com/watch?v=AnRCxcmbQDE&ab_channel=CassandreUrsu" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Presentation video</span></a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
