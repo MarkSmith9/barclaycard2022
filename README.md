@@ -8,10 +8,10 @@
 - [x] Cosmin
 
 ## questions
-- Theming 
+- Theming
 	- Logo + colours - Rudo
 	- pci compliance - Rudo
 - How loyalty scheme works -Louise
-- Guest login
+- Guest login - Mark
 - reconciliation of transactions - Brandon
 - storefronts - Cosmin
