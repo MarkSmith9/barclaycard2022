@@ -4,4 +4,4 @@
 - [ ] Danielle
 - [ ] Louise
 - [ ] Petar
-- [ ] Rudo
+- [x] Rudo
