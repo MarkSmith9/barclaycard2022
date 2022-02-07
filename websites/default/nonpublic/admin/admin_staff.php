@@ -84,10 +84,10 @@
                                         echo ($user['access'] == 1000) ? "<td>Admin</td>" : "<td>Staff</td>";
                                         echo '<td>
                                                 <div class="d-flex flex-wrap justify-content-center">
-                                                <form autocomplete="off" method="POST" action="personal_page.php?page=profile_staff&id='.$user['id'].'"><button class="btn btn-sm btn-success">View</button></form>
-                                                <form autocomplete="off" method="POST" action="personal_page.php?page=edit_staff&id='.$user['id'].'"><button class="btn btn-sm btn-warning">Edit</button></form>
-                                                <form autocomplete="off" method="POST" action="personal_page.php?page=delete_staff&id='.$user['id'].'"><button name="submit" class="btn btn-sm btn-danger">Delete</button></form>
-                                                </div>
+                                                <form autocomplete="off" method="POST" action="personal_page.php?page=profile_staff&id='.$user['id'].'"><button class="btn btn-sm btn-success">View</button></form>';
+                                                echo ($user['access'] != 1000) ? '<form autocomplete="off" method="POST" action="personal_page.php?page=edit_staff&id='.$user['id'].'"><button class="btn btn-sm btn-warning">Edit</button></form>' : '';
+                                                echo ($user['access'] != 1000) ? '<form autocomplete="off" method="POST" action="personal_page.php?page=delete_staff&id='.$user['id'].'"><button name="submit" class="btn btn-sm btn-danger">Delete</button></form>' : '';
+                                        echo '        </div>
                                             </td>';
                                         echo '</tr>';
 
