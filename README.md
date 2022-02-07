@@ -1,12 +1,5 @@
 # barclaycard2022
 Group name: Impact development
-## GitHub Check (check the tick box to make sure GitHub is working for you)
-- [x] Mark
-- [x] Louise
-- [x] Petar
-- [x] Rudo
-- [x] Cosmin
-- [x] Brandon
 
 ## Meeting findings
 ### Client
@@ -39,10 +32,7 @@ Group name: Impact development
 - pci
 - gdpr
 - disability act
-
-
-
-
+- 
 ### Misc
 - The client is not looking for a too corporate presentation, instead he wants us to build trust and be memorable
 	- This is done by standing out and letting our personalities come through
@@ -73,8 +63,6 @@ Password: UniTest1234
 
 ### Test Credit cards that can be used
 [card table](test-credit-cards-table.md)
-
-
 
 ### What I did when modifying the gateway files:
 - added appropriate keys where needed
