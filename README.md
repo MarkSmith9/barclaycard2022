@@ -5,3 +5,11 @@
 - [ ] Louise
 - [ ] Petar
 - [x] Rudo
+
+## questions
+- Theming
+	- Logo
+	- pci compliance
+- How loyalty scheme works
+- Guest login
+- reconciliation of transactions
