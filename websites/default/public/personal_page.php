@@ -39,18 +39,6 @@ if(isset($_SESSION['access'])){
         elseif(isset($_GET['page']) && $_GET['page']=='edit_category'){
             require '../nonpublic/admin/admin_edit_category.php';
         }
-        elseif(isset($_GET['page']) && $_GET['page']=='auction'){
-            require '../nonpublic/admin/admin_auction.php';
-        }
-        elseif(isset($_GET['page']) && $_GET['page']=='add_auction'){
-            require '../nonpublic/admin/admin_add_auction.php';
-        }
-        elseif(isset($_GET['page']) && $_GET['page']=='delete_auction'){
-            require '../nonpublic/admin/admin_delete_auction.php';
-        }
-        elseif(isset($_GET['page']) && $_GET['page']=='edit_auction'){
-            require '../nonpublic/admin/admin_edit_auction.php';
-        }
         elseif(isset($_GET['page']) && $_GET['page']=='lot'){
             require '../nonpublic/admin/admin_lot.php';
         }
@@ -65,15 +53,6 @@ if(isset($_SESSION['access'])){
         }
         elseif(isset($_GET['page']) && $_GET['page']=='profile_lot'){
             require '../nonpublic/admin/admin_lot_profile.php';
-        }
-        elseif(isset($_GET['page']) && $_GET['page']=='assign_auction'){
-            require '../nonpublic/admin/admin_assign_auction.php';
-        }
-        elseif(isset($_GET['page']) && $_GET['page']=='archive_lot'){
-            require '../nonpublic/admin/admin_archive_lot.php';
-        }
-        elseif(isset($_GET['page']) && $_GET['page']=='archive'){
-            require '../nonpublic/admin/admin_lot_archive.php';
         }
         elseif(isset($_GET['page']) && $_GET['page']=='add_lot_picture'){
             require '../nonpublic/admin/admin_add_lot_picture.php';
