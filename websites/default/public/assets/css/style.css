@@ -13,7 +13,7 @@ pallet 1:
 #FBF8F1
 #F7ECDE
 #E9DAC1
-#54BAB9
+#FBF8F1
 pallet 2:
 #93B5C6
 #C9CCD5
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #54BAB9;
+  color: #FBF8F1;
 }
 
 .navbar .getstarted {
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #54BAB9;
+  border: 2px solid #FBF8F1;
   font-weight: 600;
 }
 
