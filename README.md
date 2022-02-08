@@ -1,5 +1,10 @@
 # barclaycard2022
 Group name: Impact development
+## Tuesday client findings
+- 15 transactions a day
+- wants discount campaing
+- booking refers to to booking of collection and delivery 
+
 ## Tuesday agenda
 - 9:00 join meeting [link](https://barclays.webex.com/barclays/j.php?MTID=m6e393261390e1993f79f370e6d7feabd) If the link doesn't work it's on powerpoint
 - ~11:20 talk with the client - some potentional client questions are on google docs. Also display the prototype to the client.
