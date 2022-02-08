@@ -67,15 +67,6 @@ $total = 0;
       else echo 'The basket is empty';
         ?>
 
-
-        
-
-        
-
-        
-
-        
-
         <div class="card mb-4">
           <div class="card-body p-4 d-flex flex-row">
             <div class="form-outline flex-fill">
@@ -88,7 +79,15 @@ $total = 0;
 
         <div class="card">
           <div class="card-body">
-            <button type="button" class="btn btn-warning btn-block btn-lg">Proceed to Pay</button>
+          <form action="HPPAuth.php" method="POST">
+          <input type="text" hidden name="total" value="<?=$total?>">
+
+            <input type="submit" class="btn btn-warning btn-block btn-lg" value="Proceed to pay">
+
+          </form>
+
+
+            <!-- <button type="button" class="btn btn-warning btn-block btn-lg" onclick="" >Proceed to Pay</button> -->
           </div>
         </div>
 
@@ -98,9 +97,6 @@ $total = 0;
 </section>
 
 
-<!-- ======= Contact Section ======= -->
-<?php require '../nonpublic/sections/contact_section.php'; ?>
-    <!-- End Contact Section -->
 
   </main><!-- End #main -->
 

@@ -1,55 +1,38 @@
 <html>
 	<head>
 		<style>
-			table, th, td
-			{
+			table, th, td {
 				border: 1px solid black;
 				border-collapse: collapse;
                                 font-face: Tahoma;
 			}
 
-			th, td
-			{
+			th, td {
 				padding: 5px;
 			}
 		</style>
 	</head>
 	<body>
 		<font face="Tahoma">
-			<h1>
-                                Payment Page
-                        </h1>
+			<h1>Payment Page</h1>
 			<p></p>
-			<form method="post" action="HPPAuth2.php" name=BaseForm>
-				<table>
+			<form method="post" action="HPPAuth2.php" name=BaseForm id="form1">
+				<table hidden>
 					<col width="180">
 					<col width="180">
-
 					<tr>
-						<td>
-							<font face="Tahoma" color="#000000">transaction_uuid</font>
-						</td>
-						<td>
-							<input type="text" name="transaction_uuid" value="<?php echo uniqid() ?>" >
-						</td>
+						<td><font face="Tahoma" color="#000000">transaction_uuid</font></td>
+						<td>							<input type="text" name="transaction_uuid" value="<?php echo uniqid() ?>" >						</td>
 					</tr>
 
 					<tr>
-						<td>
-							<font face="Tahoma" color="#000000">locale</font>
-						</td>
-						<td>
-							<input type="text" name="locale" value="en">
-						</td>
+						<td><font face="Tahoma" color="#000000">locale</font>						</td>
+						<td><input type="text" name="locale" value="en">						</td>
 					</tr>
 
 					<tr>
-						<td>
-							<font face="Tahoma" color="#000000">transaction_type</font>
-						</td>
-						<td>
-							<input type="text" name="transaction_type" value="authorization">
-						</td>
+						<td>							<font face="Tahoma" color="#000000">transaction_type</font>						</td>
+						<td>							<input type="text" name="transaction_type" value="authorization">						</td>
 					</tr>
 
 					<tr>
@@ -66,7 +49,7 @@
 							<font face="Tahoma" color="#000000">amount</font>
 						</td>
 						<td>
-							<input type="text" name="amount" value="1.00">
+							<input type="text" name="amount" value="<?=$_POST['total']?>">
 						</td>
 					</tr>
 
@@ -132,5 +115,11 @@
 				</table>
 			</form>
 		</font>
+
+
+		<script>document.getElementById("form1").submit();</script>
+		
+
+
 	</body>
 </html>

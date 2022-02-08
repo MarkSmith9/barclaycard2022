@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <html>
 <head>
 <?php
@@ -56,39 +57,56 @@
 			padding: 5px;
 		}
 	</style>
+
+
+
 </head>
-<body>
+
+
+
+<body >
         <font face="Tahoma">
 
 	<h1>
 		Smartpay Fuse Pre Payment HPP
 	</h1>
-	<form method="post" action="https://testsecureacceptance.cybersource.com/pay" name="GatewayPush">
-	<table>
-		<col width="180">
-		<col width="180">
 
-	<?php
-            foreach($params as $parameter_name => $parameter_value) {
-                echo "<tr><td>" . $parameter_name . "</td><td>" . $parameter_value . "</td></tr>";
-            }
-        ?>
-	</table>
+	<form method="post" action="https://testsecureacceptance.cybersource.com/pay" name="GatewayPush" id="form2">
+			<table hidden>
+				<col width="180">
+				<col width="180">
 
-	<?php
-        foreach($params as $parameter_name => $parameter_value) {
-            echo "<input type=\"hidden\" id=\"" . $parameter_name . "\" name=\"" . $parameter_name . "\" value=\"" . $parameter_value . "\"/>\n";
-        }
-        echo "<input type=\"hidden\" id=\"signature\" name=\"signature\" value=\"" . sign($params) . "\"/>\n";
+			<?php
+					foreach($params as $parameter_name => $parameter_value) {
+						echo "<tr><td>" . $parameter_name . "</td><td>" . $parameter_value . "</td></tr>";
+					}
+				?>
+			</table>
 
-		echo "<br><br>";
-		print buildDataToSign($params);
-		echo "<br><br>";
-		print sign($params);
-    ?>
+		<?php
+			foreach($params as $parameter_name => $parameter_value) {
+				echo "<input type=\"hidden\" id=\"" . $parameter_name . "\" name=\"" . $parameter_name . "\" value=\"" . $parameter_value . "\"/>\n";
+			}
+			echo "<input type=\"hidden\" id=\"signature\" name=\"signature\" value=\"" . sign($params) . "\"/>\n";
+
+			echo "<br><br>";
+			//print buildDataToSign($params);
+			echo "<br><br>";
+			//print sign($params);
+		?>
 	<br /><br />
 
 	<input type="submit" id="submit" value="Pay up!" style="background-color:#FFFFFF; height:30; width:150">
 	</form>
+
+<?php
+
+$_SESSION['basket'] = [];
+?>
+	<script defer>
+				// document.getElementById("form2").submit(); 
+	</script>
+
 </body>
+
 </html>
