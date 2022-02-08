@@ -5,16 +5,18 @@
 <?php require '../nonpublic/utils/pdo.php';?>
 <?php require '../nonpublic/utils/functions.php';?>
 
+
 <?php
-$basket_items= findAll($pdo, 'basket');
-// print_r($basket_items);
-$total=0;
-foreach($basket_items as $item) {
-    $total += $item['price'];
-}
+$total = 0;
+  if (isset($_SESSION['basket'])) {
+    foreach($_SESSION['basket'] as $price) {
+      $total += $price[2];
+    }
+
+  }
+
 
 ?>
-
 
 
 <section class="h-100" style="background-color: #eee;">
@@ -30,12 +32,11 @@ foreach($basket_items as $item) {
         </div>
 
 
-
         <?php 
-        
-        foreach($basket_items as $item) {
-            $product=find($pdo, 'items', 'id', $item['product']);
-            // print_r($product);
+        if (isset($_SESSION['basket'])) {
+        foreach($_SESSION['basket'] as $item) {
+            // print_r($item); echo '<p>';
+            $product=find($pdo, 'items', 'id', $item[0]);
             echo '<div class="card rounded-3 mb-4">';
             echo '<div class="card-body p-4">';
             echo '<div class="row d-flex justify-content-between align-items-center">';
@@ -62,7 +63,8 @@ foreach($basket_items as $item) {
             echo '</div>';
             echo '</div>';
         }
-        
+      }
+      else echo 'The basket is empty';
         ?>
 
 

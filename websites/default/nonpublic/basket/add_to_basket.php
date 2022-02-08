@@ -1,22 +1,12 @@
-<?php require '../nonpublic/utils/pdo.php';?>
-<?php require '../nonpublic/utils/functions.php';?>
-
-
 <?php
-$stmt = $pdo->prepare('INSERT INTO sys.basket (product, quantity, price)
-VALUES(:product, :quantity, :price)');
-
-$values = [
-'product' => $_GET['product'],
-'quantity' => 1 ,
-'price' => $_GET['price']                
-];
-
-$stmt->execute($values);
 
 
+$_SESSION['basket'][] = [$_GET['product'], 1, $_GET['price']] ;
 
-// print_r($_GET);
 
-// Array ( [page] => add_to_basket [product] => 10 [price] => 12 )
+// if(isset($_SESSION['basket'])){
+//     array_push ($_SESSION['basket'], [$_GET['product'], 1, $_GET['price']] );
+
+// }else $_SESSION['basket'];
+
 echo '<script type="text/JavaScript">window.location.replace("index.php#pricing")</script>';
