@@ -37,19 +37,17 @@ $basket_items= findAll($pdo, 'basket');
             echo '<div class="card-body p-4">';
             echo '<div class="row d-flex justify-content-between align-items-center">';
             echo '<div class="col-md-2 col-lg-2 col-xl-2">';
-
-            echo '                  <img src="/assets/img/cheese.svg"';
+            echo '<img src="/assets/img/cheese.svg"';
             echo 'class="img-fluid rounded-3" alt="Product">';
             echo '</div>';
             echo '<div class="col-md-3 col-lg-3 col-xl-3">';
-
-            echo '                  <p class="lead fw-normal mb-2">'.$product[0]['name'].'</p>';
-            echo '                  <p><span class="text-muted">'.$product[0]['description'].'</span></p> <p><span class="text-muted">Price: </span>£ '.$product[0]['price'].'</p>';
+            echo '<p class="lead fw-normal mb-2">'.$product[0]['name'].'</p>';
+            echo '<p><span class="text-muted">'.$product[0]['description'].'</span></p> <p><span class="text-muted">Price: </span>£ '.$product[0]['price'].'</p>';
             echo '</div>';
             echo '<div class="col-md-3 col-lg-3 col-xl-2 d-flex">';
-            echo '<button class="btn btn-link px-2" onclick="this.parentNode.querySelector(\'input[type=number]\').stepDown()"> <i class="fas fa-minus"></i></button>';
+            echo '<button class="btn btn-link px-2" onclick="this.parentNode.querySelector(\'input[type=number]\').stepDown()"> <i class="bi bi-dash"></i></button>';
             echo '<input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-cont" >';
-            echo '<button class="btn btn-link px-2" onclick="this.parentNode.querySelector(\'input[type=number]\').stepUp()"> <i class="fas fa-plus"></i></button>';
+            echo '<button class="btn btn-link px-2" onclick="this.parentNode.querySelector(\'input[type=number]\').stepUp()"> <i class="bi bi-plus"></i></button>';
             echo '</div>';
             echo '<div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">';
             echo '                  <h5 class="mb-0"> £ 55 </h5>';
@@ -60,11 +58,7 @@ $basket_items= findAll($pdo, 'basket');
             echo '</div>';
             echo '</div>';
             echo '</div>';
-
-
-
         }
-        
         
         ?>
 
