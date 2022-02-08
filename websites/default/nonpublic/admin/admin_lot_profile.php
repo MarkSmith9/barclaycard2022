@@ -62,7 +62,7 @@ $lot = $stmt->fetch();
       <div class="col-lg-4">
         <div class="card mb-4">
           <div class="card-body text-center">
-            <img src="assets/img/cheese.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+            <img src="assets/img/cheese.svg" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
             <h5 class="my-3"><?=$lot['name']?></h5>
             <p class="text-muted mb-1">Quantity: <?=$lot['stock']?></p>
             <p class="text-muted mb-4">Phillip's Cheese</p>
@@ -157,7 +157,7 @@ $lot = $stmt->fetch();
       <div class="carousel-inner" align="center">
 
         <div class="carousel-item active">
-          <img class="d-block w-50" src="assets/img/cheese.png" alt="First slide">
+          <img class="d-block w-50" src="assets/img/cheese.svg" alt="First slide">
         </div> 
 
         <?php 

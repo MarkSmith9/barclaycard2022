@@ -1,5 +1,5 @@
 <form autocomplete="off" method="POST" action="login.php">
-    <a href="index.php"><img class="mb-4" src="../assets/img/cheese.png" alt="Go to main page" ></a>
+    <a href="index.php"><img class="mb-4" src="../assets/img/cheese.svg" alt="Go to main page" ></a>
     <h1 class="h3 mb-3 fw-normal"><?=$welcome_message;?></h1>
 
 

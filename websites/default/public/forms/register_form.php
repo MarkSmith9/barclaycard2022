@@ -1,5 +1,5 @@
         <form autocomplete="off" method="POST" action="register.php">
-            <a href="index.php"><img class="mb-4" src="../assets/img/cheese.png" alt="" ></a>
+            <a href="index.php"><img class="mb-4" src="../assets/img/cheese.svg" alt="" ></a>
             <h1 class="h3 mb-3 fw-normal"><?=$welcome_message?></h1>
 
             <div class="form-floating">
