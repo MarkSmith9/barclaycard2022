@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px #332F29;
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #105251
+  color: #332F29;
 }
 
 .navbar .dropdown ul a i {
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: 54BAB9;
+  color: #332F29;
 }
 
 .navbar .dropdown:hover > ul {
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: #124443;
+  background: #332F29;
   transition: 0.3s;
   z-index: 999;
 }
