@@ -28,7 +28,7 @@
 
                     
 <!-- Page Heading -->
-<h1 class="h3 mb-2 text-gray-800">FOTHEBY'S CUSTOMERS</h1>
+<h1 class="h3 mb-2 text-gray-800">Phillip's Cheese Customers</h1>
                     
 
                     <!-- DataTales Example -->
