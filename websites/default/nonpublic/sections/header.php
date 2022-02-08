@@ -1,7 +1,7 @@
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.php"><img class="mb-4" src="../assets/img/PhillipsCheesesLogo.svg" alt="Go to main page" ></a></h1>
+      <h1 class="logo me-auto"><a href="index.php"><img  src="../assets/img/PhillipsCheesesLogo.svg" alt="Go to main page" ></a></h1>
       <!-- <a href="index.php"><img class="mb-4" src="../assets/img/logo.jpg" alt="Go to main page" ></a> -->
 
       <!-- Uncomment below if you prefer to use an image logo -->
