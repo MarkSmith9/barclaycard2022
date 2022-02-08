@@ -60,6 +60,18 @@ if(isset($_SESSION['access'])){
         elseif(isset($_GET['page']) && $_GET['page']=='assign_stock'){
             require '../nonpublic/admin/admin_assign_stock.php';
         }
+        
+
+
+
+
+
+
+
+
+
+
+
 
         else {
         require '../nonpublic/sections/admin_dashboard.php';
@@ -69,12 +81,22 @@ if(isset($_SESSION['access'])){
     if ($_SESSION['access']==1) {
         require '../nonpublic/sections/user_section.php';
     }
+    
 }
 
-else{
-    require '../nonpublic/utils/head.php';
-    echo '<h3 class="text-center my-3 centerMessage">Invalid operation</h3>';
-    echo '<form class="text-center" action="login.php"><button style="width: 150px" class="btn btn-lg btn-primary">Please log in</button></form>';
+// else{
+//     require '../nonpublic/utils/head.php';
+//     echo '<h3 class="text-center my-3 centerMessage">Invalid operation</h3>';
+//     echo '<form class="text-center" action="login.php"><button style="width: 150px" class="btn btn-lg btn-primary">Please log in</button></form>';
+// }
+
+
+
+if(isset($_GET['page']) && $_GET['page']=='add_to_basket'){
+    require '../nonpublic/basket/add_to_basket.php';
+}
+elseif(isset($_GET['page']) && $_GET['page']=='basket'){
+    require '../nonpublic/basket/basket.php';
 }
 
 

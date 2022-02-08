@@ -25,7 +25,7 @@
           // echo '<li><i class="bx bx-check"></i> Fermented in Northampton</li>';
           // echo '<li><i class="bx bx-check"></i> Aged to at least 6 months</li>';
           echo '</ul>';
-          echo '<a href="#" class="buy-btn">Purchase</a>';
+          echo '<a href="personal_page.php?page=add_to_basket&product='.$product['id'].'&price='.$product['price'].'" class="buy-btn btn-info" type="button">Purchase</a>';
           echo '</div>';
           echo '</div>';
 

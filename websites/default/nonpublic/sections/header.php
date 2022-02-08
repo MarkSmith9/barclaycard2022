@@ -14,12 +14,12 @@
                 echo '<li><a class="nav-link scrollto active" href="personal_page.php">'.$_SESSION['fname'].'\'s Panel'.'</a></li>';
                 }
               else {
-                echo '<li><a class="nav-link scrollto active" href="#hero">Home</a></li>';
+                echo '<li><a class="nav-link scrollto active" href="index.php">Home</a></li>';
               }
             ?> 
 
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Products</a></li>
+          <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.php#pricing">Products</a></li>
           
           <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -38,8 +38,8 @@
               
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a href="#"><i class="bi bi-cart"></i></a></li>
+          <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
+          <li><a href="personal_page.php?page=basket"><i class="bi bi-cart"></i></a></li>
         
 
           <li>
