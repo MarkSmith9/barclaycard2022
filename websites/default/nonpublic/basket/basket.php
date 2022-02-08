@@ -8,6 +8,10 @@
 <?php
 $basket_items= findAll($pdo, 'basket');
 // print_r($basket_items);
+$total=0;
+foreach($basket_items as $item) {
+    $total += $item['price'];
+}
 
 ?>
 
@@ -21,8 +25,7 @@ $basket_items= findAll($pdo, 'basket');
         <div class="d-flex justify-content-between align-items-center mb-4">
           <h3 class="fw-normal mb-0 text-black">Shopping Cart</h3>
           <div>
-            <p class="mb-0"><span class="text-muted">Sort by:</span> <a href="#!" class="text-body">price <i
-                  class="fas fa-angle-down mt-1"></i></a></p>
+            <p class="mb-0"><span class="text-muted">Total price: </span> <?=$total?> </p>
           </div>
         </div>
 
@@ -50,7 +53,7 @@ $basket_items= findAll($pdo, 'basket');
             echo '<button class="btn btn-link px-2" onclick="this.parentNode.querySelector(\'input[type=number]\').stepUp()"> <i class="bi bi-plus"></i></button>';
             echo '</div>';
             echo '<div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">';
-            echo '                  <h5 class="mb-0"> £ 55 </h5>';
+            echo '                  <h5 class="mb-0"> '.$product[0]['price'].' </h5>';
             echo '</div>';
             echo '<div class="col-md-1 col-lg-1 col-xl-1 text-end">';
             echo '                  <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>';
