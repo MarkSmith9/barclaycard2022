@@ -6,7 +6,7 @@
           <h1>Welcome to Phillip's Cheese</h1>
           <h2>We are team of professionals ready to fulfil your cheese Wishes</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="docs/new_catalogue.pdf" target="_blank" class="btn-get-started scrollto">Our Latest products</a>
+            <a href="" class="btn-get-started scrollto">Our Latest products</a>
             <a href="https://www.youtube.com/watch?v=AnRCxcmbQDE&ab_channel=CassandreUrsu" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Presentation video</span></a>
           </div>
         </div>

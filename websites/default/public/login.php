@@ -30,6 +30,7 @@
 </head>
 
 <body class="text-center">
+  
 
     <main class="form-signin">
         <?php 
@@ -56,8 +57,9 @@ if (isset($_POST['submit'])) {
             $_SESSION['userid'] = $user['id'];
             $_SESSION['fname']= $user['fname'];
 
-            echo '<h3 class="centerMessage">Welcome back '.$user['fname'].' '.$user['lname'].'!!!</h3>';
-            echo '<button class="btn btn-lg btn-primary" type="button" onclick="parent.location=\'index.php\'">Take me to the website</button>';
+            // echo '<h3 class="centerMessage">Welcome back '.$user['fname'].' '.$user['lname'].'!!!</h3>';
+            // echo '<button class="btn btn-lg btn-primary" type="button" onclick="parent.location=\'index.php\'">Take me to the website</button>';
+            echo '<script type="text/JavaScript">window.location.replace("index")</script>';  
 
       }
       else {
