@@ -6,6 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Phillip’s Cheeses</title>
+  <link rel="icon" type="image/x-icon" href="../assets/img/cheese.svg">
   <meta content="" name="description">
   <meta content="" name="keywords">
 
