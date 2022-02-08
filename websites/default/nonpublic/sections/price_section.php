@@ -1,3 +1,7 @@
+<?php require '../nonpublic/utils/pdo.php'?>
+<?php require '../nonpublic/utils/functions.php'?>
+
+
 <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -9,47 +13,37 @@
         </div>
 
         <div class="row">
+        <?php
+        $products = findAll($pdo, 'items');
+        foreach($products as $product){
+          echo '<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">';
+          echo '<div class="box">';
+          echo '<h3>'.$product['name'].'</h3>';
+          echo '  <h4><sup>£</sup>'.$product['price'].'<span>per/kg</span></h4>';
+          echo '<ul>';
+          echo '<li><i class="bx bx-check"></i> '.$product['description'].'</li>';
+          // echo '<li><i class="bx bx-check"></i> Fermented in Northampton</li>';
+          // echo '<li><i class="bx bx-check"></i> Aged to at least 6 months</li>';
+          echo '</ul>';
+          echo '<a href="#" class="buy-btn">Purchase</a>';
+          echo '</div>';
+          echo '</div>';
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Cheddar</h3>
-              <h4><sup>£</sup>5<span>per/kg</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Matured locally</li>
-                <li><i class="bx bx-check"></i> Fermented in Northampton</li>
-                <li><i class="bx bx-check"></i> Aged to at least 6 months</li>
-                </ul>
-              <a href="#" class="buy-btn">Purchase</a>
-            </div>
-          </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>Gouda</h3>
-              <h4><sup>£</sup>15<span>per/kg</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Renowned by locals</li>
-                <li><i class="bx bx-check"></i> Great Taste</li>
-                <li><i class="bx bx-check"></i> Lasts longer</li>
-                <li><i class="bx bx-check"></i> Cheapest on the market</li>
-                <li><i class="bx bx-check"></i> Supports local farmers</li>
-              </ul>
-              <a href="#" class="buy-btn">Purchase</a>
-            </div>
-          </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>Blue Cheese</h3>
-              <h4><sup>£</sup>25<span>per/kg</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Valued at the right price</li>
-                <li><i class="bx bx-check"></i> Aged to perfection</li>
-                <li><i class="bx bx-check"></i> Commonly exported to other European countries</li>
-              </ul>
-              <a href="#" class="buy-btn">Purchase</a>
-            </div>
-          </div>
+
+          
+        }
+        
+        ?>
+
+
+
+
+
+          
+
+          
 
         </div>
 

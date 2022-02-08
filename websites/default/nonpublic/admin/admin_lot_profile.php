@@ -256,17 +256,18 @@ $lot = $stmt->fetch();
 
 
                 <form method="POST" action="personal_page.php?page=assign_stock&id=<?=$_GET['id']?>">
-                <select name="stock" id="stock">
+                <select name="branch" id="branch">
                         <?php
                         $stmt2 = $pdo->prepare('SELECT * FROM sys.branches');
                         $values = [];
                         $stmt2 ->execute($values);
                         
-                        foreach($stmt2 as $stock){
-						              echo '<option value="'.$stock['id'].'">'.$stock['name'].$stock['id'].'</option>';
+                        foreach($stmt2 as $branch){
+						              echo '<option value="'.$branch['id'].'">'.$branch['name'].'</option>';
 					                }
 				                ?>
                 </select>
+                <input type="hidden" class="form-control form-control-user" name="stock" id="stock" value="<?=$_GET['id']?>">
                 <input type="text" class="form-control form-control-user" name="quantity" id="quantity" placeholder="quantity">
                 </div><!--modal body for pictures-->
 
